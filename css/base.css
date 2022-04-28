@@ -69,6 +69,7 @@ address {
 
 section {
     overflow: hidden;
+    padding: 100px 0px;
 }
 
 .wrapper {

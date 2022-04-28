@@ -25,6 +25,7 @@
     display: inline-block;
     color: #fff;
     font-size: 14px;
+    line-height: 17px;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
@@ -58,9 +59,75 @@
 .tours__list {
     margin-top: 62px;
 }
+
 .tours__item {
     display: inline-block;
+    float: left;
     max-width: 362px;
-    text-align: justify;
-    background: #fff;;
+    margin-right: 27px;
+}
+
+.tours__item:last-child {
+    float: right;
+    margin-right: 0px;
+}
+
+.tours__img {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.tours__content {
+    background-color: #fff;
+    border-radius: 0px 0px 5px 5px;
+    padding: 33px 22px 24px 22px;
+}
+
+.tours__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.tours__benefits {
+    margin: 22px 0px;
+}
+
+.benefit {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 45px;
+    min-height: 26px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #666;
+}
+
+.benefit:first-child {
+    background: url(../img/calendar.png) top left no-repeat;
+}
+
+.benefit:last-child {
+    background: url(../img/meal.png) top left no-repeat;
+    margin-left: 28px;
+}
+
+.tours__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #303030;
+    margin-bottom: 24px;
+}
+
+.button--light {
+    background-color: #fff;
+    color: #F5170E;
+    border: 1px solid #F5170E;
+    box-sizing: border-box;
+}
+
+.button--light:hover {
+    background-color: #F5170E;
+    color: #fff;
+    box-shadow: none;
 }
