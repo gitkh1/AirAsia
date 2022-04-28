@@ -1,35 +1,35 @@
 html {
-	font-size: 16px;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
 
 body,
 html {
-	height: 100%;
-    
+    height: 100%;
+
 }
 
 body {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	color: #000;
-	margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #000;
+    margin: 0;
 }
 
 button {
-	border: 0;
-	cursor: pointer;
+    border: 0;
+    cursor: pointer;
 }
 
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 ul {
-	padding: 0;
-	margin: 0;
-	list-style: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 h1,
@@ -38,28 +38,29 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: normal;
-	margin: 0;
+    font-weight: normal;
+    margin: 0;
 }
 
 p {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 button {
-	cursor: pointer;
+    cursor: pointer;
 }
+
 a {
-	color: inherit;
-	cursor: pointer;
-	text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 img {
-	display: block;
-	max-width: 100%;
-	max-height: 100%;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 address {
@@ -88,23 +89,9 @@ section {
     overflow: hidden;
 }
 
-.logo, .menu, .menu__item, .contacts {
+.logo,
+.menu,
+.menu__item,
+.contacts {
     display: inline-block;
-}
-
-.button {
-    display: inline-block;
-    color:#fff;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 22px 44px;
-    background: #f5170e;
-    border-radius: 35px;
-}
-
-.button:hover {
-    background:#da0100;
-    box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
 }

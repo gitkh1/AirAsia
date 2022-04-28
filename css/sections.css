@@ -19,3 +19,48 @@
     font-size: 18px;
     line-height: 20px;
 }
+
+
+.button {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 22px 44px;
+    background: #f5170e;
+    border-radius: 35px;
+}
+
+.button:hover {
+    background: #da0100;
+    box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+}
+
+.title {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #fff;
+}
+
+.title--fire::after {
+    content: "";
+    display: inline-block;
+    margin-left: 12px;
+    width: 21px;
+    height: 28px;
+    background: url(../img/flame.png) no-repeat;
+}
+
+.tours__list {
+    margin-top: 62px;
+}
+.tours__item {
+    display: inline-block;
+    max-width: 362px;
+    text-align: justify;
+    background: #fff;;
+}
