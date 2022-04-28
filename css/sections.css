@@ -61,7 +61,6 @@
 }
 
 .tours__item {
-    display: inline-block;
     float: left;
     max-width: 362px;
     margin-right: 27px;
