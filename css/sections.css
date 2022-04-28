@@ -1,5 +1,5 @@
 .first-screen {
-    padding-top: 122px;
+    padding: 122px 0px;
     color: #fff;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .first-screen__lead {
-    margin-top: 27px;
+    margin: 30px 0px;
     font-size: 18px;
     line-height: 20px;
 }
