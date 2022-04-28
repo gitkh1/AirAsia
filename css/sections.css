@@ -1,0 +1,21 @@
+.first-screen {
+    padding-top: 122px;
+    color: #fff;
+}
+
+.first-screen__container {
+    width: 520px;
+    float: left;
+}
+
+.first-screen__h1 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84px;
+}
+
+.first-screen__lead {
+    margin-top: 27px;
+    font-size: 18px;
+    line-height: 20px;
+}

@@ -1,0 +1,60 @@
+.header__container {
+    padding-top: 26px;
+    color: #fff;
+    overflow: hidden;
+}
+
+.logo,
+.menu {
+    float: left;
+}
+
+.logo__pic {
+    width: 85px;
+    height: 36px;
+}
+
+.menu {
+    margin-top: 16px;
+    margin-left: 79px;
+}
+
+.menu__list {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.menu__item {
+    margin-left: 54px;
+}
+
+.menu__item:hover {
+    cursor: pointer;
+    color:#da0100;
+}
+
+.menu__item:first-child {
+    margin-left: 0px;
+}
+
+.contacts {
+    float: right;
+    text-align: right;
+}
+
+.contacts__phone {
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.contacts__workhours {
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color:#EDEDED;
+}
+
+.contacts__workhours:hover {
+    cursor:pointer;
+    color:#fff;
+}
