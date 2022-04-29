@@ -31,7 +31,7 @@
 }
 
 .social__item a img:hover {
-    filter: brightness(2.9);
+    filter: brightness(3);
 }
 
 .contacts__descr {
