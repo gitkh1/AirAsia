@@ -67,23 +67,14 @@ address {
     font-style: normal;
 }
 
-section {
-    overflow: hidden;
-    padding: 100px 0px;
-}
-
 .wrapper {
     overflow: hidden;
     min-height: 100%;
     background-color: #001821;
 }
 
-.wrapper__content--main {
-    background: url(../img/background-1.jpg) top center no-repeat;
-}
-
-.wrapper__content {
-    background: url(../img/background-2.jpg) bottom center no-repeat;
+.wrapper--main {
+    background: url(../img/background-1.jpg) top center no-repeat, url(../img/background-2.jpg) bottom center no-repeat, #001821;
 }
 
 .footer {

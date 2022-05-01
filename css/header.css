@@ -15,7 +15,7 @@
 }
 
 .menu {
-    margin-top: 16px;
+    margin-top: 14px;
     margin-left: 79px;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .menu__item {
-    margin-left: 54px;
+    margin-left: 51px;
 }
 
 .menu__item:hover {
@@ -40,16 +40,17 @@
 .contacts {
     float: right;
     text-align: right;
+    margin-top: 2px;
 }
 
 .contacts__phone {
     font-size: 26px;
-    line-height: 30px;
+    line-height: 1em;
 }
 
 .contacts__workhours {
     font-size: 13px;
-    line-height: 15px;
+    line-height: 1em;
     text-decoration-line: underline;
     color:#EDEDED;
 }
