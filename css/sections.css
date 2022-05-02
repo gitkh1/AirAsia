@@ -218,6 +218,7 @@
     line-height: 1.3em;
     margin-top: 4px;
     height: 2.6em;
+    overflow: hidden;
 }
 
 .news-paginator {
