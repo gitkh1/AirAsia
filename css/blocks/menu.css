@@ -1,0 +1,23 @@
+.menu {
+    margin-top: 14px;
+}
+
+.menu__list {
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__item {
+    margin-left: 51px;
+}
+
+.menu__item:hover {
+    cursor: pointer;
+    color:#da0100;
+}
+
+.menu__item:first-child {
+    margin-left: 0px;
+}

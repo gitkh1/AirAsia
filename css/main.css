@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
-@import url(base.css);
-@import url(header.css);
-@import url(sections.css);
-@import url(footer.css);
+@import url(layout/normalize.css);
+@import url(layout/base.css);
+@import url(blocks/header.css);
+@import url(blocks/logo.css);
+@import url(blocks/menu.css);
+@import url(blocks/contacts.css);
+@import url(blocks/first-screen.css);
+@import url(blocks/button.css);
+@import url(blocks/title.css);
+@import url(blocks/tours.css);
+@import url(blocks/news.css);
+@import url(blocks/paginator.css);
+@import url(blocks/about.css);
+@import url(blocks/footer.css);

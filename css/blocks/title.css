@@ -1,0 +1,19 @@
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.15em;
+    color: #fff;
+    display: flex;
+}
+
+.title--fire::after {
+    content: "";
+    margin-left: 12px;
+    width: 21px;
+    background: url(../../img/flame.png) center center no-repeat;
+}
+
+.title--dark {
+    color: #000;
+}

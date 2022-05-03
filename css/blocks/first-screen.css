@@ -1,0 +1,28 @@
+.wrapper--main {
+    background: url(../../img/background-1.jpg) top center no-repeat, url(../../img/background-2.jpg) bottom center no-repeat, #001821;
+}
+
+.first-screen {
+    color: #fff;
+}
+
+.first-screen__container {
+    width: 520px;
+    margin-top: 126px;
+}
+
+.first-screen__title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.35em;
+}
+
+.first-screen__lead {
+    margin-top: 28px;
+    font-size: 18px;
+    line-height: 1.1em;
+}
+
+.first-screen__lead {
+    margin-bottom: 33px;
+}

@@ -1,0 +1,6 @@
+.container--header {
+    padding-top: 26px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}

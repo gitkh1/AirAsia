@@ -1,0 +1,28 @@
+.contacts {
+    text-align: right;
+    margin-top: 2px;
+    flex-grow: 3;
+}
+
+.contacts__phone {
+    font-size: 26px;
+    line-height: 1em;
+}
+
+.contacts__workhours {
+    font-size: 13px;
+    line-height: 1em;
+    text-decoration-line: underline;
+    color:#EDEDED;
+}
+
+.contacts__workhours:hover {
+    cursor:pointer;
+    color:#fff;
+}
+
+.contacts__descr {
+    font-size: 11px;
+    line-height: 20px;
+    color: #9a9a9a;
+}
