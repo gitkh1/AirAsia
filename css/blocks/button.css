@@ -21,7 +21,8 @@
     color: #F5170E;
     border: 1px solid #F5170E;
     box-sizing: border-box;
-    padding: 17px 30px;
+    padding: 17px 39px;
+    align-self: flex-start;
 }
 
 .button--light:hover {

@@ -1,0 +1,39 @@
+.services-content {
+  background: #fff;
+  padding: 75px 0px 84px;
+}
+
+.services__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.services__item {
+  display: flex;
+  justify-content: flex-start;
+  padding: 25px 0px;
+}
+
+.services__img {
+  width: 460px;
+  height: 333px;
+  margin-right: 56px;
+  border-radius: 5px;
+}
+
+.services__descr {
+  padding-top: 15px;
+}
+
+.services__name {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.services__text {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #303030;
+  margin: 34px 0px;
+  text-align: justify;
+}

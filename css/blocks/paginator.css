@@ -9,6 +9,10 @@
     align-items: baseline;
 }
 
+.paginator--dark {
+    margin-top: 38px;
+}
+
 .paginator__display {
     padding-right: 25px;
 }
@@ -33,4 +37,9 @@
 .paginator-active {
     color: #F5170E;
     background: #fff;
+}
+
+.paginator-active--dark {
+    background: #F5170E;
+    color: #fff;
 }

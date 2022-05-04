@@ -4,6 +4,14 @@
     font-size: 36px;
     line-height: 1.15em;
     color: #fff;
+}
+
+.title--first-screen {
+    font-size: 72px;
+    line-height: 1.35em;
+}
+
+.title--fire {
     display: flex;
 }
 
@@ -16,4 +24,15 @@
 
 .title--dark {
     color: #000;
+}
+
+.title--headline {
+    font-size: 72px;
+    margin-top: 100px;
+    margin-bottom: 113px;
+}
+
+.title--partners {
+    font-size: 48px;
+    color: #1a1b1e;
 }
