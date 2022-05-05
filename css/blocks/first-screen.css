@@ -7,16 +7,16 @@
 }
 
 .first-screen__container {
-    width: 520px;
-    margin-top: 126px;
+    width: 45%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .first-screen__lead {
     margin-top: 28px;
+    margin-bottom: 33px;
     font-size: 18px;
     line-height: 1.1em;
-}
-
-.first-screen__lead {
-    margin-bottom: 33px;
 }

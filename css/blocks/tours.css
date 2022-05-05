@@ -9,28 +9,37 @@
 }
 
 .tours__item {
-    max-width: 362px;
+    width: 31.7%;
 }
 
-.tours__img {
+.tour__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.tour__img {
     border-radius: 5px 5px 0px 0px;
     max-height: 144px;
     object-fit: cover;
 }
 
-.tours__content {
+.tour__content {
+    flex: 1;
     background-color: #fff;
     border-radius: 0px 0px 5px 5px;
     padding: 33px 22px 24px 22px;
+    display: flex;
+    flex-direction: column;
+
 }
 
-.tours__name {
+.tour__name {
     font-weight: 700;
     font-size: 24px;
     line-height: 1.3em;
 }
 
-.tours__benefits {
+.tour__benefit {
     display: flex;
     margin-top: 24px;
 }
@@ -40,22 +49,26 @@
     font-size: 16px;
     line-height: 1.6em;
     color: #666;
-    flex-grow: 1;
 }
 
 .benefit:first-child {
     background: url(../../img/calendar.png) top left 6px no-repeat;
+    margin-right: 20px;
 }
 
 .benefit:last-child {
     background: url(../../img/meal.png) top left no-repeat;
 }
 
-.tours__text {
+.tour__text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.5em;
     color: #303030;
     margin-top: 23px;
     margin-bottom: 25px;
+}
+
+.tour__btn {
+    margin-top: auto;
 }

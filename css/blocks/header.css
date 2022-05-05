@@ -1,7 +1,13 @@
 .container--header {
     padding-top: 26px;
+    margin-bottom: 30px;
     color: #fff;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.container__col {
+    display: flex;
     align-items: center;
 }

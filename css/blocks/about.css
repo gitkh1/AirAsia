@@ -1,27 +1,23 @@
 .container--about {
-    position: relative;
     min-height: 755px;
+    display: flex;
+    padding: 100px 0px;
 }
 
 .about__img {
-    position: absolute;
-    top: 147px;
-    left: 0;
     width: 490px;
     height: 505px;
-    border-radius: 5px;
     background: url(../../img/gates.jpg) center center / cover no-repeat;
     border-radius: 5px;
 }
 
 .about__content {
-    position: absolute;
-    top: 244px;
-    left: 354px;
-    width: 785px;
-    height: 455px;
+    max-width: 785px;
+    min-height: 455px;
+    margin-top: 100px;
+    margin-left: -134px;
     background: url(../../img/mountains.jpg) center center / cover no-repeat;
-    padding: 74px 203px 0px 80px;
+    padding: 74px 150px 74px 80px;
     border-radius: 5px;
 }
 

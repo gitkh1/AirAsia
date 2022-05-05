@@ -1,16 +1,15 @@
-.menu {
-    margin-right: auto;
-}
-
 .menu__list {
     font-size: 14px;
     line-height: 16px;
     display: flex;
-    justify-content: space-between;
 }
 
 .menu__item {
     padding-left: 51px;
+}
+
+.menu__item:first-child {
+    padding-left: 0px;
 }
 
 .menu__link:hover {
