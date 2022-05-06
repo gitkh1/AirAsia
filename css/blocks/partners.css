@@ -1,6 +1,6 @@
 .partners {
   background: #f4f5f5;
-  padding: 93px 0px 90px 0px;
+  padding: 93px 0px 98px 0px;
 }
 
 .partners__list {
@@ -11,15 +11,26 @@
 }
 
 .partners__item {
-  height: 70px;
-  align-self: center;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.partners__link {
+  display: block;
+  filter: grayscale(100%);
+}
+
+.partners__link:hover {
+  filter: grayscale(0%);
 }
 
 .partners__item:nth-child(-n+4) {
-  margin-bottom:76px;
+  margin-bottom:48px;
 }
 
 .partners__item--break {
   flex-basis: 100%;
   height: 0;
 }
+

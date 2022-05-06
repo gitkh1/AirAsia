@@ -1,6 +1,7 @@
 .footer {
     color: #fff;
     background: #001821;
+    padding: 50px 0px;
 }
 
 .container--footer {
@@ -8,8 +9,11 @@
     align-items: center;
     justify-content: space-between;
     border-top: 2px solid rgba(255,255,255,0.1);
-    padding-top: 45px;
-    padding-bottom: 10px;
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
 }
 
 .social {

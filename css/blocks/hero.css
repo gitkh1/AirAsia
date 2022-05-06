@@ -2,19 +2,19 @@
     background: url(../../img/background-1.jpg) top center no-repeat, url(../../img/background-2.jpg) bottom center no-repeat, #001821;
 }
 
-.first-screen {
+.hero {
     color: #fff;
 }
 
-.first-screen__container {
+.hero__text-section {
     width: 45%;
-    min-height: 500px;
+    min-height: 452px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 
-.first-screen__lead {
+.hero__lead {
     margin-top: 28px;
     margin-bottom: 33px;
     font-size: 18px;

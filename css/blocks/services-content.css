@@ -1,9 +1,4 @@
-.services-content {
-  background: #fff;
-  padding: 75px 0px 84px;
-}
-
-.services__list {
+.services {
   display: flex;
   flex-direction: column;
 }

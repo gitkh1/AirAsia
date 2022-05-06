@@ -1,7 +1,7 @@
 .container--about {
-    min-height: 755px;
+    min-height: 706px;
     display: flex;
-    padding: 100px 0px;
+    padding-top: 155px;
 }
 
 .about__img {
@@ -14,10 +14,10 @@
 .about__content {
     max-width: 785px;
     min-height: 455px;
-    margin-top: 100px;
-    margin-left: -134px;
+    margin-top: 97px;
+    margin-left: -137px;
     background: url(../../img/mountains.jpg) center center / cover no-repeat;
-    padding: 74px 150px 74px 80px;
+    padding: 74px 150px 65px 80px;
     border-radius: 5px;
 }
 
@@ -26,5 +26,5 @@
     font-size: 16px;
     line-height: 1.7em;
     color: #060606;
-    margin-bottom: 41px;
+    margin-bottom: 68px;
 }

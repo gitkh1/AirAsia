@@ -80,7 +80,6 @@ address {
     flex: 1;
     display: flex;
     flex-direction: column;
-    background: url(../../img/headline.jpg) top center no-repeat #fff;
 }
 
 .container {
@@ -88,7 +87,14 @@ address {
     width: 1141px;
 }
 
-.main__content {
+.page-content {
     background: #fff;
     flex: 1;
+    padding-top: 73px;
+    padding-bottom: 85px;
+}
+
+.page-content--main {
+    background: none;
+    padding-bottom: 54px;
 }

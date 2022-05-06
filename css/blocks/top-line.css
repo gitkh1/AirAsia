@@ -1,9 +1,19 @@
-.headline {
-  color: #fff;
-  padding-bottom: 23px;
+.top-line {
+  min-height: 406px;
+  background: url(../../img/headline.jpg) top center / cover no-repeat #fff;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
 }
 
-.breadcrumbs {
+.top-line__container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.breadcrumbs__list {
   display: flex;
   font-size: 14px;
   color: #9a9a9a;
