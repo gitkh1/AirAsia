@@ -5,11 +5,11 @@
 }
 
 .menu__item {
-    padding-left: 54px;
+    margin-left: 54px;
 }
 
 .menu__item:first-child {
-    padding-left: 0px;
+    margin-left: 0px;
 }
 
 .menu__link:hover {

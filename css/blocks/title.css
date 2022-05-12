@@ -4,11 +4,13 @@
     font-size: 36px;
     line-height: 1.15em;
     color: #fff;
+    margin-bottom: 54px;
 }
 
 .title--hero {
     font-size: 72px;
     line-height: 1.35em;
+    margin-bottom: 28px;
 }
 
 .title--fire {
@@ -36,4 +38,5 @@
 .title--partners {
     font-size: 48px;
     color: #1a1b1e;
+    margin-bottom: 83px;
 }
