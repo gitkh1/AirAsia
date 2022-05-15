@@ -25,10 +25,12 @@
 .partners__link {
   display: block;
   filter: grayscale(100%);
+  transition: 0.5s;
 }
 
 .partners__link:hover {
   filter: grayscale(0%);
+  transition: 0.5s;
 }
 
 .partners__item:nth-child(-n+4) {

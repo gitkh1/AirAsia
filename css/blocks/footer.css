@@ -36,6 +36,29 @@
     margin-right: 0px;
 }
 
-.social__item a img:hover {
+.social__img {
+    width: 36px;
+    height: 36px;
+    transition: 0.5s;
+}
+
+.social__img:hover {
     filter: brightness(3);
+    transition: 0.5s;
+}
+
+.social__img--tg {
+    background: url(../../img/icons.png) -66px -10px;
+}
+
+.social__img--vk {
+    background: url(../../img/icons.png) -66px -66px;
+}
+
+.social__img--in {
+    background: url(../../img/icons.png) -66px -10px;
+}
+
+.social__img--fb {
+    background: url(../../img/icons.png) -10px -10px;
 }

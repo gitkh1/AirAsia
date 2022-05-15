@@ -1,0 +1,98 @@
+.reviews {
+    column-count: 2;
+    column-gap: 30px;
+}
+
+.reviews__item {
+    display: inline-flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    padding: 50px 28px;
+    background: #F4F5F5;
+    border-radius: 5px;
+    margin-bottom: 17px;
+}
+
+.reviews__author {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.reviews__author-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.reviews__author-name {
+    display: inline-flex;
+    align-items: center;
+    font-size: 24px;
+    line-height: 42px;
+    color: #1A1B1E;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+.reviews__author-name:hover {
+    text-decoration: underline;
+    color: #2E77A4;
+    transition: 0.5s;
+}
+
+.reviews__author-name::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: url(../../img/vk-blue1.jpg) center center no-repeat;
+
+}
+
+.avatar {
+    max-width: 142px;
+    max-height: 142px;
+    border-radius: 71px;
+}
+
+.tag {
+    display: inline-flex;
+    font-size: 13px;
+    color: #303030;
+    padding: 9px 18px;
+    border-radius: 35px;
+    background: #E7E7E7;
+}
+
+.tag--green {
+    background: #B9EAE4;
+}
+
+.reviews__data {
+    margin-top: 27px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+}
+
+.data__title {
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: bold;
+    color: #1A1B1E;
+}
+
+.data__text {
+    margin-top: 13px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #818181;
+}
+
+.reviews__date {
+    margin-top: 48px;
+}

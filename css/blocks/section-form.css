@@ -1,0 +1,81 @@
+.section-form {
+    background: #F4F5F5;
+    padding: 60px 0px 96px;
+}
+
+.form__row  {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form__input {
+    flex: 1;
+    margin-right: 30px;
+    border-radius: 5px;
+    border: none;
+    background: #fff;
+    padding: 20px 30px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1A1B1E;
+}
+
+.form__input::placeholder {
+    color: #666666;
+}
+
+.form__input:last-child {
+    margin-right: 0px;
+}
+
+.form__input:focus {
+    border: 1px solid #F5170E;
+}
+
+.form__input--textarea {
+    height: 235px;
+}
+
+.form__controls {
+    display: flex;
+}
+
+.controls {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form__controls-title {
+    width: 40%;
+}
+
+.controls__item {
+    margin-bottom: 10px;
+    margin-right: 18px;
+}
+
+.controls__elem {
+    cursor: pointer;
+}
+
+.controls__checkbox {
+    display: none;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+    background: #B9EAE4;
+}
+
+.form__buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form__btn {
+    margin-right: 17px;
+}
+
+.form__btn:last-child {
+    margin-right: 0px;
+}

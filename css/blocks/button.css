@@ -9,11 +9,13 @@
     padding: 19px 41px;
     background: #f5170e;
     border-radius: 35px;
+    transition: 0.5s;
 }
 
 .button:hover {
     background: #da0100;
     box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+    transition: 0.5s;
 }
 
 .button--light {
@@ -29,4 +31,14 @@
     background-color: #F5170E;
     color: #fff;
     box-shadow: none;
+    transition: 0.5s;
+}
+
+.button--grey {
+    background-color: #8E8E8E;
+}
+
+.button--grey:hover {
+    background-color: #2B2B2B;
+    transition: 0.5s;
 }

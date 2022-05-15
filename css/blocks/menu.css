@@ -12,7 +12,12 @@
     margin-left: 0px;
 }
 
+.menu__link {
+    transition: 0.5s;
+}
+
 .menu__link:hover {
     cursor: pointer;
     color:#da0100;
+    transition: 0.5s;
 }

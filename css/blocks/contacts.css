@@ -12,15 +12,70 @@
     line-height: 1em;
     text-decoration-line: underline;
     color:#EDEDED;
+    transition: 0.5s;
 }
 
 .contacts__workhours:hover {
     cursor:pointer;
     color:#fff;
+    transition: 0.5s;
 }
 
 .contacts__descr {
     font-size: 11px;
     line-height: 20px;
     color: #9a9a9a;
+}
+
+
+.workhours {
+    position: relative;
+}
+
+.workhours__dropdown {
+    position: absolute;
+    opacity: 0;
+    top: 100%;
+    right: 9999px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contacts__workhours:hover .workhours__dropdown {
+    right: 0;
+    opacity: 0.8;
+    transition: opacity 0.5s;
+}
+
+.workhours__triangle {
+    content: '';
+    border: 15px solid transparent;
+    width: 0px;
+    height: 0px;
+    margin-right: 30px;
+    border-bottom-color: #ededed;
+    border-top-width: 0px;
+}
+
+.workhours__text {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #ededed;
+    border-radius: 9px;
+    text-align: left;
+}
+
+.workhours__hours {
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: bold;
+    color: #1E1F20;
+}
+
+.workhours__lunch {
+    font-size: 13px;
+    line-height: 21px;
+    color: #1E1F20;
 }
