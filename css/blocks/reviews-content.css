@@ -47,8 +47,8 @@
     width: 30px;
     height: 30px;
     border-radius: 15px;
-    background: url(../../img/vk-blue1.jpg) center center no-repeat;
-
+    margin-left: 7px;
+    background: url(../../img/icons.png) -122px -10px;
 }
 
 .avatar {
